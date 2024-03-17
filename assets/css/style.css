@@ -13,7 +13,9 @@ body {
   color: #666;
   -webkit-font-smoothing: antialiased;
 }
-
+::-webkit-scrollbar{
+  display: none;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -248,7 +250,7 @@ a,
 }
 
 .bg-dark {
-  background: #111;
+  background: #000000;
 }
 
 .bg-dark-30:before {
@@ -813,7 +815,7 @@ a,
 /* Forms common style */
 .form-control {
   font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
   font-size: 11px;
   height: 33px;
@@ -1665,12 +1667,12 @@ Google map
 }
 
 .team-name {
-  font-size: 14px;
+  font-size: 1.2rem;
   color: #111;
 }
 
 .team-role {
-  font-size: 11px;
+  font-size: 1rem;
   color: #aaa;
 }
 
@@ -2155,7 +2157,7 @@ Google map
 
 .post-title {
   line-height: 1.4;
-  font-size: 22px;
+  font-size: 18px;
   color: #111;
   margin: 0;
 }
@@ -2466,6 +2468,12 @@ Google map
   }
 }
 
+@media (max-width: 767px){
+  .team-item:hover .team-detail {
+    display: none;
+    opacity: 1 !important;
+  }
+}
 /*--------------------------------------------------------------
 	Client
 --------------------------------------------------------------*/

@@ -813,7 +813,7 @@ a,
 /* Forms common style */
 .form-control {
   font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
   font-size: 11px;
   height: 33px;
@@ -1665,12 +1665,12 @@ Google map
 }
 
 .team-name {
-  font-size: 14px;
+  font-size: 1.2rem;
   color: #111;
 }
 
 .team-role {
-  font-size: 11px;
+  font-size: 1rem;
   color: #aaa;
 }
 
